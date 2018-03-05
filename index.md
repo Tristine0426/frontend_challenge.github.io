@@ -1,37 +1,160 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  
+  </head>
+  <body>
+      <section class="container">
+<!------------------------------status bar------------------------------>      
+        <nav id="status-bar">
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-battery-three-quarters"></i>
+            <h6>12:00 PM</h6>
+        </nav>
+<!------------------------------title------------------------------>      
+        <section id="title">
+          <div class="location-header">
+            <h1>Washington & State</h1>
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </div>
+        </section> 
+<!------------------------------navigation ------------------------------>             
+        <section id="navigation">
+          <div class="nav-bar">
+                <h1 class="selected">Search</h1>
+                <h1>Map</h1>
+                <h1>Favorite</h1>
+                <h1>Recent</h1>
+          </div> 
+        </section>
+<!------------------------------user input------------------------------>     
+        <section id="input">
+            <div class="left-icons">
+                <i class="fas fa-circle icon-content"></i>
+                <i class="fas fa-ellipsis-v icon-content"></i>
+                <i class="fas fa-circle no2 icon-content"></i>
+                <i class="far fa-clock icon-content"></i>
+            </div>
+            <div class="location-input">
+                <form>
+                    <input type="text" name="Start" placeholder="Start"><br>
+                    <input type="text" name="End" placeholder="End">
+                </form>
+                <div class="leave-now">Leave now</div>
+                <i class="fas fa-caret-down interactive"></i>
+            </div>
 
-You can use the [editor on GitHub](https://github.com/Tristine0426/frontend_challenge.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tristine0426/frontend_challenge.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            <div class="right-icons">
+                <i class="fas fa-plus interactive input-content icon-content"></i>
+                <i class="fas fa-heart input-content icon-content"></i>
+            </div>
+        </section>
+<!------------------------------bus routes------------------------------>     
+      <section id="bus-list">
+        <div class="location">
+          <div class="content">
+            <h1>60</h1>
+            <h3>Randolph/Harbor Dr</h3>    
+          </div>
+            <div class="time">
+            <div>12:28 PM</div>
+          </div>         
+        </div>
+                 
+        <div class="location">
+          <div class="content">
+            <h1>124</h1>
+            <h3>Navy Pier</h3>
+          </div>
+          <div class="time">
+            <div>12:32 PM</div>
+          </div>
+        </div>
+          
+        <div class="location">
+          <div class="content">
+            <h1>151</h1>
+            <h3>Devon/Clark</h3>
+          </div>
+          <div class="time">
+            <div>12:28 PM</div>
+          </div>
+        </div>
+          
+        <div class="location">
+          <div class="content">
+            <h1>J14</h1>
+            <h3>103rd/Stoney Island</h3>
+          </div>
+          <div class="time">
+            <div>12:28 PM</div>
+          </div>
+        </div>
+          
+        <div class="location">
+          <div class="content">
+            <h1>124</h1>
+            <h3>Navy Pier</h3>
+          </div>
+          <div class="time">
+            <div>12:28 PM</div>
+          </div>
+        </div>
+          
+        <div class="location">
+          <div class="content">
+            <h1>6x</h1>
+            <h3>Jackson Park Express</h3>
+          </div>
+          <div class="time">
+            <div>12:28 PM</div>
+          </div>
+        </div>
+          
+        <div class="location">
+          <div class="content">
+            <h1>4</h1>
+            <h3>Cottage Grove</h3>
+          </div>
+          <div class="time">
+            <div>Resumes 12:10 AM</div>
+          </div>
+        </div>
+          
+        <div class="location">
+          <div class="content">
+            <h1>20</h1>
+            <h3>Madison</h3>
+          </div>
+          <div class="time">
+            <div>Resumes 12:10 AM</div>
+          </div>
+        </div>
+          
+        <div class="location">
+          <div class="content">
+            <h1>157</h1>
+            <h3>Streeterville/Taylor</h3>
+          </div>
+          <div class="time">
+            <div>Resumes 6:00 AM</div>
+          </div>
+        </div>
+<!------------------------------mobile buttons------------------------------>               
+        <section id="mobile-nav">
+          <div class="mobile-icons">
+            <i class="fas fa-caret-left fa-2x"></i>
+            <i class="far fa-circle fa-2x mobile-circle"></i>
+            <i class="far fa-square fa-2x"></i>
+        </div>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
